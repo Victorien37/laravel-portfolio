@@ -20,3 +20,31 @@ Route::get('/welcome', function () {
 Route::get('/', function() {
     return view('home');
 });
+
+Route::get('/APropos', function() {
+    return view('apropos');
+});
+
+Route::get('/bts', function() {
+    return view('bts');
+});
+
+Route::get('/Parcours', function() {
+    return view('parcours');
+});
+
+Route::get('/Projets', function() {
+    return view('projets');
+});
+
+Route::get('/Veille', function() {
+    return view('veille');
+});
+
+Route::get('/Certifications', function() {
+    return view('certifications');
+});
+
+Route::get('/Contact', function() {
+    return view('contact');
+});
