@@ -4,6 +4,7 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <title>Portfolio</title>
+        <link rel="icon" href="{{asset('assets/img/icon.png')}}">
         <link rel="stylesheet" href="{{asset('assets/css/portfolio.css')}}">
         {{-- <script src="{{asset('assets/js/text.js')}}"> --}}
 
